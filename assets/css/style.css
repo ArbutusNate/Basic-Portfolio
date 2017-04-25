@@ -60,7 +60,6 @@ footer {
 	text-align: center;
 	clear: both;
 	background-color: #666666;
-
     height: 100px;
     width: 100%;
     border-top: 10px solid #4baaa5;
@@ -76,7 +75,7 @@ footer {
     text-align: center;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #d1d1d1;
-	font-size: 28px;
+	font-size: 27px;
 	text-decoration: none;
 	width: auto;
 }
@@ -126,21 +125,40 @@ a {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 }
-input {
+input[type=text] {
 	width: 100%;
 	height: 35px;
 	border: 2px solid #d1d1d1;
 	color: #d1d1d1;
 }
+input[type=submit] {
+	width: 200px;
+	height: 25px;
+	border-radius: 5px;
+    border: 0;
+    width: 80px;
+    height:25px;
+ 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #4aaaa5;
+    color: white;
+}
+textarea {
+	width: 100%;
+	height: auto;
+}
 ::-webkit-input-placeholder {
   color: #d1d1d1;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 ::-moz-placeholder {
   color: #d1d1d1;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 :-ms-input-placeholder {
   color: #d1d1d1;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 :-moz-placeholder {
   color: #d1d1d1;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
