@@ -9,18 +9,12 @@ p {
 	color: #777777;
 	line-height: 30px;
 }
-ul {display: inline-block;
-}
 h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
-}
-li {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
 }
 .content-wrapper {
 	clear: both;
@@ -35,7 +29,6 @@ li {
 .contentrule {
 	/*background-color: #e0e0e0;*/
 	border-color: #e0e0e0;
-	border-width: 2px;
 }
 /* Header, Footer, and Nav Bar */
 #head {
@@ -46,7 +39,6 @@ li {
 	overflow: auto;
 }
 .headername {
-	vertical-align: center;
 	height: 80px;
 	color: white;
 	padding: 5px 30px;
@@ -96,6 +88,10 @@ a {
 	float: left;
 	padding: 30px 30px;
 }
+.icon {
+	width: 20%;
+	margin: 2%;
+}
 /* Main Page */
 #profile {
 	float: left;
@@ -134,12 +130,10 @@ input[type=text] {
 	color: #d1d1d1;
 }
 input[type=submit] {
-	width: 200px;
+	width: 150px;
 	height: 25px;
 	border-radius: 5px;
     border: 0;
-    width: 80px;
-    height:25px;
  	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: #4aaaa5;
     color: white;
@@ -163,4 +157,7 @@ textarea {
 :-moz-placeholder {
   color: #d1d1d1;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+input {
+ text-indent: 25px;
 }
